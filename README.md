@@ -1,3 +1,21 @@
+<center> <h1>AirBnB_clone_v2 is getting forked </h1> </center>
+
+This repository is the fruit of a collaborative student project undertaken by "Benalla Aiman" and "Laghdaf Ben Alla". Our aim was to construct a clone of the AirBnB website. In this initial stage, we focused on developing a backend interface, also known as a console, to manage program data. This console provides a range of commands that allow users to create, update, and destroy objects, as well as manage file storage. We implemented a system of JSON serialization/deserialization to ensure that storage is persistent across sessions.
+
+Throughout this project, we aimed to gain a deeper understanding of several key concepts:
+
+- **Unit testing**: We learned how to implement unit testing in a large project to ensure the functionality of individual units of source code.
+- **\*args and \*\*kwargs**: We explored how to use \*args to pass a variable number of non-keyworded arguments to functions, and \*\*kwargs to pass a variable number of keyword arguments.
+- **Named arguments in functions**: We learned how to handle named arguments in functions for greater flexibility and readability.
+- **MySQL database creation**: We gained experience in creating a MySQL database.
+- **MySQL user and privileges**: We learned how to create a MySQL user and grant it privileges for database access and modification.
+- **ORM (Object-Relational Mapping)**: We understood what ORM means and how it allows us to interact with our database, like we would with SQL. In other words, instead of writing SQL commands, we can just use Python to manipulate our database.
+- **Mapping Python Classes to MySQL tables**: We learned how to map a Python Class to a MySQL table which provides a more flexible way of working with databases.
+- **Handling different storage engines**: We developed the ability to handle 2 different storage engines with the same codebase which is crucial for maintaining code DRYness (Don't Repeat Yourself).
+- **Environment variables**: Lastly, we learned how to use environment variables which are very useful when you need to change your application's behavior without changing your code.
+
+We hope this gives you some insight into our learning journey through this project! 😊
+
 <center> <h1>HBNB - The Console</h1> </center>
 
 This repository contains the initial stage of a student project to build a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. Console commands allow the user to create, update, and destroy objects, as well as manage file storage. Using a system of JSON serialization/deserialization, storage is persistent between sessions.
